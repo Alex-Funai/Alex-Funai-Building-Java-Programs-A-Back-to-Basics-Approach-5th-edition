@@ -4,6 +4,10 @@
 *   Computer Science 210    *
 *****************************/
 
+--->
+Building Java Programs: Chapter 6 -- File Processing - File Reading - Tokenizing - Line Based processsing
+<---
+
 ---> Assignment 6 <---
 
 BabyNames -- This program asks the user for a name (must be on the list of names.txt), and will return the name's popularity rank out of #1000
