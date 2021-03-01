@@ -5,7 +5,7 @@
 *****************************/
 
 --->
-Building Java Programs: Chapter 17 -- Binary Trees - Tree Traversals - Tree Operations - Binary Search Trees
+Building Java Programs: Chapter 16 -- Linked Lists - Working with Nodes - Linked List Class - Complex List Operation - IntList Interface
 <---
 
 ---> Assignment 7 <---
