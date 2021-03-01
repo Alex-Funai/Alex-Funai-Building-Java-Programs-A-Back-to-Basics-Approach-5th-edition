@@ -1,6 +1,6 @@
 Alexander Funai
 CS210 Assignment #4
-Building Java Programs: Chapter 4 -- Conditional Execution
+Building Java Programs: Chapter 4 -- Conditional Execution - if/else Statements - Cumulative Algorithms - Methods w/ conditional Execution
 
 2)
 a)
