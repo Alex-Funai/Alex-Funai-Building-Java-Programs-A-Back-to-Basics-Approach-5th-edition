@@ -1,0 +1,45 @@
+Alexander Funai
+CS211 Assignment #9
+Building Java Programs: Chapter 18 -- Advanced Data Structures - Hashing - Priority Queues and Heaps
+
+5)
+01234567898002420351595660
+6)
+0123456789        |                /                 |                /                /                 |                |                /                /                /
+      80		             42			        95             66
+		              |                                                    | 
+                                          2                                                  15
+                                                                                               |
+                                                                                              35
+7)
+012345678900320245444700
+10111213141516171819000X0X01700
+Size = 6;
+Capacity = 20;
+Load Factor = 0.636;
+8)
+012345678910000070825039152918
+Size = 7;
+Capacity = 11;
+Load Factor = 0.636;
+12)
+
+0123456789///X/6 = Tina7 = Meghan///
+10111213141516171819///33 = Kona34 = Tyler15 = Daisy/X//
+15)
+a. Invalid, because heap value 21 can’t be beneath 30.
+b. Invalid, because the left/right tree node are incomplete from 69 and 70, thus the whole binary tree is incomplete.
+c. It’s valid.
+17)
+
+19)
+
+20)
+
+25)
+
+0123456789/23467589…
+
+
+Funai, 0
+
