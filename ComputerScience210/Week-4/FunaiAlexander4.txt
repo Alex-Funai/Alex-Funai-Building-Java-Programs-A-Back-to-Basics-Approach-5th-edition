@@ -1,0 +1,98 @@
+Alexander Funai
+CS210
+Building Java Programs: Chapter 4
+Assignment 4
+
+2)
+a)
+public class SelfCheckProblems {
+
+    public static void main (String [] args) {
+        
+    int x;
+    int y;
+    int z = 2;
+        
+        if (z % 2 == 1) {
+            System.out.println(z);
+        }          
+    }
+}
+b)  if (z <= Math.sqrt(y)) {
+c)  if (y > 0)
+d)  if (x % 2 != y %2)
+// Don’t  understand this one completely
+e)  if (z != 0)
+f)  z != 0
+g)  Math.abs(y) > Math.abs (z)
+h)  (x >= 0) == (z < 0)
+i)  y % 10 == y 
+j)  z >= 0
+k)  x % 2 == 0
+l)  Math.abs (x – y ) < Math.abs (z – y )
+
+
+2)
+a)  True
+b)  False
+c)  True
+d)  False
+e)  True
+f)  False
+g)  False
+h)  True
+i)  True
+
+3)
+e.  if   ( x == y ) {
+
+4)
+[ERROR] Line 5:  incorrect use of parenthesis instead of brackets.
+[ERROR] Line 5:  invalid operator, missing equal sign (==).
+[ERROR] Line 5:  call for smaller variable is out of scope
+[ERROR] Line 10: incorrect declaration, data type variable int needs to be declared instead.
+[ERROR] Line 13: incorrect operator, should be >=
+[ERROR] Line 16: data type int should not be declared in return statement
+[ERROR] Line 16: Int smaller out of scope
+
+5)
+13 21
+5 6
+6 5
+8 12
+
+12)
+import java.util.Scanner;
+public class selfcheck {
+	public static void main (String [] args) {
+	Scanner console = new Scanner (System.in);
+	int numBills1 = getBills(console, “John”);
+	int numBills2 = getBills(console, “Jane”);
+	System.out.println(“John needs “ + numBills1 + “ bills”);
+	System.out.println(“Jane needs “ + numBills2 + “ bills”);
+}
+
+public static int getBills(Scanner console, String name) {
+	System.out.print(“How much will “ + name + “ be spending “);
+	double amount = console.nextDouble();
+	System.out.println();
+	int numBills = (int) (amount / 20.0);
+	if (numBills * 20.0 < amount) {
+	numBills++;
+}
+Return numBills;
+}
+} 
+
+15)
+[ERROR] Line 3: Variable int sum should be initialized prior to for loop.
+
+20)
+efg
+nopqrs
+
+qr
+
+27)
+If int 3 <= int n1 || int n2. This could be solved by utilizing nested else > else if  > else.
+
