@@ -1,7 +1,7 @@
 Alexander Funai
-CS210
-Building Java Programs: Chapter 3
-Homework 3
+CS210 Assignment #4
+Building Java Programs: Chapter 3 -- Introduction to Parameters and Objects // Supplement 3G Graphics
+
 
 4)
 1 3 5 
