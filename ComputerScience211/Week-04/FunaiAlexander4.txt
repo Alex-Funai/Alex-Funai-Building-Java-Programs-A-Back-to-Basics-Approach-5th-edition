@@ -1,0 +1,39 @@
+Alexander Funai
+CS 211 Assignment #4
+Building Java Programs: Chapter 12 -- Recursion - Recursive Functions and Data - Recursive Graphics - Recursive Backtracking
+3)
+a. 1
+b. 1, 2
+c. 1, 2, 4
+e. 1, 2, 4, 8, 16
+f. 1, 3, 7, 15, 30
+g. 1, 3, 6, 12, 25, 50, 100
+
+4)
+a. 113
+b. 140, 70
+c. 168, 84, 42
+d. 120, 60, 30
+e. 160, 80, 40, 20, 10
+5)
+a. *
+b. [*]
+c. ([*])
+d. ([([*])])
+e. [ ( [ ( [ * ] ) ] ) ]
+6)
+a. 4
+b. 8, 4, 8
+c. 16, 8, 16
+d.12, 8, 4, 8, 12
+e. 12, 9, 6, 3, 6, 9, 12
+
+7)
+Public static void doubleReverse ( String s ) {
+	if  ( s.length() > 0 {
+		char last = s.charAt ( s.length() – 1 );
+		System.out.print ( last );;
+		System.out.print ( last );
+		doubleReverse ( s.substring ( 0, s.length() – 1 ));
+	}
+}
