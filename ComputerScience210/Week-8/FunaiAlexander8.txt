@@ -1,0 +1,75 @@
+Alexander Funai
+CS210 Assignment #8
+Building Java Programs: Chapter 8
+
+1. There are differences between object-oriented programming and procedural programming.  One of the main differences,  is that object orientated program reasons a program through sets of objects,  in comparison to procedural programming which follows sets of actions.
+2. An object is of the class type. An object is defined as a class. Only one object per a class technically can be defined. Objects hold the current state, behavior, and how to construct it.
+3. The state of object String is it’s sequence of characters.
+4. Calculator object might have state for input.
+7. public class Name {
+    String firstName;
+    String lastName;
+    char middleName;
+    }
+11. public class Name {
+
+    String firstName;
+    char middleName;
+    String lastName;
+
+    // Returns name in normal order
+    public String getNormalOrder() {
+        return firstName + " " + middleName + ". " + lastName;
+    }
+
+    public String getReverseOrder() {
+        return lastName + ", " + firstName + " " + middleName + ".";
+    }
+}
+
+15. public String toString() {
+        return getNormalOrder();
+    }
+19.     public Name (String initialFirst, char initialMiddle, String initialLast) {
+        firstName = initialFirst;
+        middleName = initialMiddle;
+        lastName = initialLast;
+    }
+
+26. public class Name {
+
+    private String firstName;
+    private char middleName;
+    private String lastName;
+
+    public Name (String initialFirst, char initialMiddle, String initialLast) {
+        firstName = initialFirst;
+        middleName = initialMiddle;
+        lastName = initialLast;
+    }
+
+    // Returns name in normal order
+    public String getNormalOrder() {
+        return firstName + " " + middleName + ". " + lastName;
+    }
+
+    public String getReverseOrder() {
+        return lastName + ", " + firstName + " " + middleName + ".";
+    }
+
+    public String toString() {
+        return getNormalOrder();
+    }
+}
+
+27.     public void setFirstName (String firstName) {
+        this.firstName = firstName;
+    }
+    
+    public void setMiddleName (char middleName) {
+        this.middleName = middleName;
+    }
+    
+    public void setLastName (String lastName) {
+        this.lastName = lastName;
+    }
