@@ -4,6 +4,10 @@
 *   Computer Science 210    *
 *****************************/
 
+--->
+Building Java Programs: Chapter 7 -- Arrays - Array Traversal Algorithms - Referance Semantics - Multidimensional Arrays
+<---
+
 ---> Assignment 7 <---
 
 Personality Test -- Utilizes scanner, file-reading, and tokenizing to read in the personality.txt of theoretical results from the Kerisey Personality Test. Answers are 
