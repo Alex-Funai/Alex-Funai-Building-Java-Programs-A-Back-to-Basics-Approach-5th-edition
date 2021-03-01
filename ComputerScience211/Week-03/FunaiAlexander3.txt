@@ -1,0 +1,57 @@
+Alexander Funai
+CS 211
+Assignment #3
+Building Java Programs: Chapter 11 -- Java Collections Framework - Lists - LinkedLists - Abstract Data Types - Sets - TreeSets - HashSets - Maps - TreeMaps - HashMaps
+2)
+Arraylist would be a preferable, when calling the get method multiple times. Indexing linked list is much slower than array I think?
+4)
+public static int countDuplicates (LinkedList <Integer> list) {
+int count = 0;
+Iterator <Integer> I = list.iterator();
+int prev = i.next();
+while (i.hasNext()) {
+int next – i.next();
+if ( prev == next ) {
+count++;
+}
+prev = next;
+}
+return count;
+}
+9)
+public static int countDuplicates (List <Integer> list) {
+int count = 0;
+Iterator <Integer> i = list.iterator();
+int prev = i.next();
+while (i.hasNext()) {
+int next = i.next();
+if ( prev == next) {
+count++;
+}
+prev = next;
+}
+return count;
+}
+13)
+Use an iterator with a for-each loop to examine every element of a Set.
+15)
+a. [amanda, helene, jessica]
+b. [riley]
+c. [alex, charlie, phl, roy, tyler]
+18)
+{79=Seventy-nine, 8=Ocho, 132=OneThreeTwo, 50=Fifty, 98=Ninety-eight, 86=Eighty-six}
+20)
+a. [brick, plaster]
+b. [blue, green, yellow]
+c. [fruit]
+d. [animal, cat, dog, ipl]
+
+
+21)
+a. [bar=earth, bar=wind, foo=air, mumble=fire]
+b. [five=quatro, one=dos, three=tres]
+c. [b=years, c=seven, e=ago, g=seven]
+
+
+
+
