@@ -1,0 +1,66 @@
+Alexander Funai
+CS 210 Winnie Li
+Homework 1
+
+1. Computers use binary numbers, because it was more convenient to engineer mechanical devices (computers) responding to an open circuit (zeros and ones), in comparison to a more complicated system using a base-10 system. Using a binary system rather than a base-10 system results in device to being produced easier and more reliably. 
+2. A) 6 = 110
+B) 44 = 10100
+C) 72 = 1001000
+D) 131 = 10000011
+3. A) 100 = 4
+B) 1011 = 11
+C) 101010 = 42
+D) 1001110 = 78
+4. An algorithm for baking cookies would consist of preparing the batch, and then baking the batch. I would create unique methods for baking and mixing, so they could be re-used for doubling the output (“batches produced”).
+5. There are differences between a .java file and a .class file. A .java file holds the source code for a file/project, and the .class file is the converted .java file in bytecode.
+6. ABC / AnnualSalary / sum_of_data / 42isTheAnswer / B4.
+7. System.out.println(“Hello, world!”);
+8. "Quotes"
+Slashes \//
+How '"confounding' "\" it is!
+9. name	age	height
+   Archie	17	5'9"
+Betty	17	5'6"
+   Jughead16	6'
+12.
+ Dear "DoubleSlash" magazine,
+
+Your publication confuses me. Is it
+a \\ slash or a //// slash?
+
+Sincerely,
+Susan "Suzy" Smith 
+18. Line 1: Error, no declaration of class to MyProgram.
+       Line 3: Error, missing semicolon at end.
+       Line 4: Error, Capital P in Println. Java is cap-sensitive.
+19. Line 2: Error, missing void type declaration.
+       Line 2: Error, S isn’t capitalized in string.
+       Line 4: Error, missing “ within string argument.
+       Line 5: Error, missing end/closing bracket “}”
+23.
+ Inside first method
+Inside third method
+Inside first method
+Inside second method
+Inside first method
+Inside second method
+Inside first method
+Inside third method
+Inside first method
+Inside second method
+Inside first method
+26.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+I am method 1.
+I am method 2.
+I am method 1.
+I am method 2.
+I am method 3.
+I am method 1.
+7/3/2020
+
+
