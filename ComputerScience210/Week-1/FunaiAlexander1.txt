@@ -1,5 +1,5 @@
 Alexander Funai
-CS 210 Winnie Li
+CS 210
 Homework 1
 
 1. Computers use binary numbers, because it was more convenient to engineer mechanical devices (computers) responding to an open circuit (zeros and ones), in comparison to a more complicated system using a base-10 system. Using a binary system rather than a base-10 system results in device to being produced easier and more reliably. 
@@ -11,10 +11,10 @@ D) 131 = 10000011
 B) 1011 = 11
 C) 101010 = 42
 D) 1001110 = 78
-4. An algorithm for baking cookies would consist of preparing the batch, and then baking the batch. I would create unique methods for baking and mixing, so they could be re-used for doubling the output (ìbatches producedî).
+4. An algorithm for baking cookies would consist of preparing the batch, and then baking the batch. I would create unique methods for baking and mixing, so they could be re-used for doubling the output (‚Äúbatches produced‚Äù).
 5. There are differences between a .java file and a .class file. A .java file holds the source code for a file/project, and the .class file is the converted .java file in bytecode.
 6. ABC / AnnualSalary / sum_of_data / 42isTheAnswer / B4.
-7. System.out.println(ìHello, world!î);
+7. System.out.println(‚ÄúHello, world!‚Äù);
 8. "Quotes"
 Slashes \//
 How '"confounding' "\" it is!
@@ -34,9 +34,9 @@ Susan "Suzy" Smith
        Line 3: Error, missing semicolon at end.
        Line 4: Error, Capital P in Println. Java is cap-sensitive.
 19. Line 2: Error, missing void type declaration.
-       Line 2: Error, S isnít capitalized in string.
-       Line 4: Error, missing ì within string argument.
-       Line 5: Error, missing end/closing bracket ì}î
+       Line 2: Error, S isn‚Äôt capitalized in string.
+       Line 4: Error, missing ‚Äú within string argument.
+       Line 5: Error, missing end/closing bracket ‚Äú}‚Äù
 23.
  Inside first method
 Inside third method
