@@ -1,15 +1,15 @@
 Alexander Funai
 CS210  Assignment #7
-Building Java Programs - Chapter 7
+Building Java Programs: Chapter 7 -- Arrays - Array Traversal Algorithms - Referance Semantics - Multidimensional Arrays
 
 1.
 e. int[] a = new int[10];
 2. 
-First element:  numbers[0]  // Access array “numbers” at index0
-Last element:  numbers[9]  //  Access array “numbers” at index9
+First element:  numbers[0]  // Access array â€œnumbersâ€ at index0
+Last element:  numbers[9]  //  Access array â€œnumbersâ€ at index9
 3.
 int [] data = new int [5]  // Create new array named data, it takes ints and initialized 5
-data[0] = 27;   // Store int 27,  at array data – index 0 
+data[0] = 27;   // Store int 27,  at array data â€“ index 0 
 data[1] = 51;   
 data[2] = 33;
 data[3] = -1;
