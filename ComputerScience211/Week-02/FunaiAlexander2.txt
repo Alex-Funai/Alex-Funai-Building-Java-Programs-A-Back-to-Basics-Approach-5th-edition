@@ -1,0 +1,39 @@
+Alexander Funai
+CS211 Assignment #2
+10/3/2020
+
+Chapter 10 – Self Check Problems - Arraylists - Wrapper Classes - The Comparable Interface - Natural Ordering
+
+4)
+list.add (3, “dark”);
+list.add (4. “and”);
+10)
+System.out.println (list.indexOf (“stormy”));
+System.out.println (list.indexOf (“dark”));
+11)
+for (String s : list) {
+	System.out.println (s.toUpperCase());
+}
+14)
+A wrapper class is a class that “wraps” (stores) primitive data as an object.
+15)
+a. [1, 2, 6, 8]
+b. [10, 30, 40, 20, 60, 50]
+c. [-4, 1, 25, 4, 16, 9, 64, 36, 49]
+16)
+a. [20, 10, 20, 30, 30, 20]
+b. [8, 7, 8, 2, 9, 7, 4, 4, 2, 8]
+c. [33, 28, 33, -1, 3, 28, 17, 9, 33, 17, -1, 33]
+17)
+a. [72, 20]
+b. [5, 8, 10, 3, 9]
+c. [34, 10, 182, 29, 4, 0]
+21)
+a. n1.compareTo(n2) > 0
+b. n3.compareTo(n1) == 0
+c. n2.compareTo(n1) < 0
+d. s1.compareTo(s2) < 0
+e. s3.compareTo(s1) > 0
+f. s2.compareTo(s2) == 0
+
+
