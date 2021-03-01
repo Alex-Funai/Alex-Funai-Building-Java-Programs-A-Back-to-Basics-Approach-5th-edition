@@ -23,4 +23,4 @@ Personality Test -- Utilizes scanner, file-reading, and tokenizing to read in th
 *   this functionality into a useable   *
 *   program for the user to actually    *
 *   take the test themselves.           *
-* ***************************************/
+*****************************************/
