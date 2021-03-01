@@ -1,0 +1,41 @@
+Alexander Funai
+CS210  Assignment #7
+Building Java Programs - Chapter 7
+
+1.
+e. int[] a = new int[10];
+2. 
+First element:  numbers[0]  // Access array “numbers” at index0
+Last element:  numbers[9]  //  Access array “numbers” at index9
+3.
+int [] data = new int [5]  // Create new array named data, it takes ints and initialized 5
+data[0] = 27;   // Store int 27,  at array data – index 0 
+data[1] = 51;   
+data[2] = 33;
+data[3] = -1;
+data[4] = 101;  //  etc   ^
+4. 
+int [] odds = new int [22];
+for (int i = 0; i < 22; i++) {
+    odds[i] = i * 2 - 5;
+}
+5.
+[ 0, 4, 11, 0, 44, 0, 0, 2 ]
+6.
+[ 3, 3, 0, 0, 6, 9, 0, -18 ]
+13.
+        int [] data = new int [5];
+        data[0] = 14;
+        data[1] = 5;
+        data[2] = 27;
+        data[3] = -3;
+        data[4] = 2598;
+        
+        for (int i = 0; i < data.length; i++) {
+            System.out.println("element [" + i + "] is " + data[i]);
+
+20.
+2 [0, 1]
+1 [0, 1]
+1 [1, 2]
+0 [1, 2]
