@@ -1,0 +1,51 @@
+Alexander Funai
+CS211 Assignment #7
+Building Java Programs: Chapter 17 -- Binary Trees - Tree Traversals - Binary Search Trees
+
+15)
+list.next.next.next = temp;
+temp.next.next = list.next.next;
+list.next.next = null;
+ListNode temp2 = temp.next;
+temp.next = list.next;
+list = temp2;
+16)
+list2.next.next.nexet = list;
+list.next = list2;
+list = list2.next.next;
+list2 = list2.next;
+list2.next = null;
+list.next.next.next = null;
+17)
+ListNode list2 = list.next.next;
+List.next.next.next.next = list.next;
+ListNode temp = list;
+list = list.next.next.next;
+list2.next = temp;
+list.next.next = null;
+list2.next.next = null;
+20)
+For adding/removing elements found at index i of a list; and using a temporary current node reference; the node should stop the loop at: [index i – 1].
+22)
+ListNode current = list;
+while (current.next != null) {
+	current = current.next;}
+23)
+ListNode current = list;
+while (current.next != null) {
+	current = current.next;}
+24)
+ListNode current = list;
+while (current.next !=null) {
+	current = current.next;}
+current.next = new ListNode (42);
+26)
+The four cases examined in the addSorted() method are:
+- typical case in the middle of the list.
+- inserting at the back of the list.
+- inserting at the front of.
+- the empty list case. 
+29)
+Implementing an IntList interface has advantages such as:
+- utilization of polymorphism
+- client program can deal with IntList reference, and the actual object at runtime can be an instance either type list.
