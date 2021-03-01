@@ -1,7 +1,6 @@
 Alexander Funai
-CS210
-Building Java Programs: Chapter 5
-Assignment 5
+CS210 Assignment #5
+Building Java Programs: Chapter 5 -- Program Logic and Indefinite Loops
 
 1.
 a)
@@ -44,8 +43,8 @@ b)
 int total = 25;
 int number = 1;
 while (number <= (total / 2)) {
-    total = total – number;
-    System.out.println(total + “ “ + number);
+    total = total â€“ number;
+    System.out.println(total + â€œ â€œ + number);
     Number++;
 }
 c)
