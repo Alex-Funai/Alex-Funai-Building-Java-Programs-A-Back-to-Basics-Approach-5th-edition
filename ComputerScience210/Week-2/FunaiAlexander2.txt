@@ -1,6 +1,6 @@
 Alexander Funai
 CS 210 Assignment #2
-Buliding Java Programs: Chapter 2 -- Primitive Data and Definite Loops
+Buliding Java Programs: Chapter 2 -- Primitive Data and Definite Loops - Data Concepts- Variables - for Loop - Managing Complexity
 
 5)  
 public class Homework2 {
