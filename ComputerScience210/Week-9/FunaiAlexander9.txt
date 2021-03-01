@@ -1,0 +1,105 @@
+Alexander Funai
+CS210 HW9
+
+1.	Code reuse is the practice of reusing code again throughout a program.
+2.	There are differences between overloading and overriding a method.  The main differences are that overloading a method reuses a method w/ different variables so it doesn’t disregard the original. Overriding methods occurs when a method is recalled with the same exact parameters and there for it overwrites the original method values.
+3.	Syntax to indicate that class A is a subclass of B:
+public class A extends B {
+4.	This keyword refers to values within a method, and super regards to the superclass’s values.
+5.	//
+6.	public UnderGraduateStudent (String name) {
+super (name, 18);
+year = 0; }
+7.	public void setAge (int age) {
+super.setAge (age);
+year++; }
+8.	vroom
+car 1
+car 2
+vroom
+truck 1
+car 2
+9.	vroomvroom
+truck 1
+car 1
+10.	//
+11.	B 2
+A
+A 1
+
+D 2
+C
+C 1
+
+A 2
+A
+A 1
+
+A 2
+C
+C 1
+12.	flute
+shoe 1
+flute 2
+
+flute
+blue 1
+flute 2
+
+moo
+moo 1
+moo 2
+
+moo
+blue 1
+moo 2
+13.	moo 2
+blue 1
+moo
+
+moo 2
+moo 1
+moo
+
+flute 2
+shoe 1
+flute
+
+flute 2
+blue 1
+flute
+14.	squid
+creature 1
+tentacles
+
+BIG!
+spout
+creature 2
+
+ocean-dwelling
+creature 1
+creature 2
+
+ocean-dwelling
+warm-blooded
+creature 2
+15.	creature 2
+ocean-dwelling
+creature 1
+
+tentacles
+squid
+creature 1
+
+creature 2
+ocean-dwelling
+warm-blooded
+
+creature 2
+BIG!
+spout
+16.	//
+17.	//
+18.	//
+19.	//
+20.	52 subclasses would cause unnecessary clutter in design. One class with two type fields for rank and suit would be more ideal.
