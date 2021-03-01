@@ -1,0 +1,93 @@
+Alexander Funai
+CS 210
+Buliding Java Programs: Chapter 2
+Homework 2
+
+5)  
+public class Homework2 {
+    public static void main (String [] args) {
+        for (int i = 1; i <=5; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+17)
+46
+36
+23
+13
+
+23)
+public class Homework2 {
+    public static void main (String [] args) {
+    for (int i = 1; i <= 6 ; i++) {
+            System.out.println(18*i-22);
+        }
+    }
+    
+}
+
+33)
+*!*!*!*!
+*!*!*!*!
+*!*!*!*!
+*!*!*!*!
+*!*!*!*!
+*!*!*!*!
+35)
+The result is: 55
+36)
+a.  2 * line +  (2 *  SIZE)
+b.  4 * line + (3 * SIZE)
+c.  -line + 92 * SIZE + 3)
+37)
+line\!/1022022182341444610658686102102 * line - 2-4 * line + 262 * line - 2	
+    // This method outputs a figure using print statement and for loops.
+    public static void Draw() {
+        for (int line = 1; line <= 6; line++) {
+            
+            // Prints backslashes
+            for (int i = 1; i <= 2 * line - 2; i++) {
+                System.out.print("\\");
+            }
+            
+            // Prints exclamation points
+            for (int i = 1; i <= -4 * line + 26; i++) {
+                System.out.print("!");
+            }
+            
+            // Prints forward slashes
+            for (int i = 1; i <= 2 * line - 2; i++) {
+                System.out.print("/");
+            }
+            System.out.println();
+                
+        }
+    }
+}
+
+38)
+line\!/101402210234644626Expression2 * line - 2-4 * line + 182 * line - 2
+    public static void Draw() {
+        for (int line = 1; line <= 6; line++) {
+            
+            // Prints backslashes
+            for (int i = 1; i <= 2 * line - 2; i++) {
+                System.out.print("\\");
+            }
+            
+            // Prints exclamation points
+            for (int i = 1; i <= -4 * line + 18; i++) {
+                System.out.print("!");
+            }
+            
+            // Prints forward slashes
+            for (int i = 1; i <= 2 * line - 2; i++) {
+                System.out.print("/");
+            }
+            System.out.println();
+    
