@@ -1,0 +1,98 @@
+Alexander Funai
+CS210
+Building Java Programs: Chapter 5
+Assignment 5
+
+1.
+a)
+Body = 10 times.
+1 11 21 31 41 51 61 71 81 91
+b)
+Body = 0 times.
+No output
+c)
+Body = Infinite loop
+250
+250
+250
+...
+d)
+Body = 3 times
+2 4 16
+e)
+Body = 5 times.
+Bbbbbabbbbb
+f)
+Body = 7 times
+10
+5
+2
+1
+0
+0
+0
+f.
+Body 
+
+2.
+a)
+int x = 1;
+while (x <= max) {
+    System.out.println(x)l
+    x++;
+b)
+int total = 25;
+int number = 1;
+while (number <= (total / 2)) {
+    total = total – number;
+    System.out.println(total + “ “ + number);
+    Number++;
+}
+c)
+int i = 1;
+while (i <= 2) {
+    int j = 1;
+    while (j <= 3) {
+        int k = 1;
+        while (k <= 4) {
+            System.out.print("*");
+            k++;
+        }
+        System.out.print("!");
+        j++;
+    }
+    System.out.println();
+    i++;
+}
+d) 
+int number = 4;
+int count = 1;
+while (count <= number) {
+    System.out.println(number);
+    number = number / 2;
+    count++;
+}
+
+3.
+mystery(1); 19 0
+mystery(6); 4 2
+mystery(19); 16 4
+mystery(39); 32 5
+mystery(74); 64 6
+
+12.
+d) 10
+
+14.
+first = 19
+Second = 8
+
+20.
+mystery (3, 3)  =  3
+mystery (5, 3)  =  1
+mystery (2, 6)  =  2
+mystery (12, 18)  =  6
+mystery (30, 75)  =  15
+
+
+
