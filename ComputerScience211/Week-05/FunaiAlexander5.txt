@@ -1,0 +1,57 @@
+Alexander Funai
+CS211 Assignment #5
+Building Java Programs: Chapter 13 -- Searching and Sorting - Binary Search - Sorting - Shuffling - Empirical Analysis - Complexity Classes - Recursive Binary Search - Searching Objects - Selection Sort - Splitting and Merging Arrays - Recursive Merge Sort
+
+7)
+Line 2: Should include implementation of <BankAccount> in Comparator statement.
+Line 3: The method compare() should be replaced with compareTo(), and accept two BankAccount
+parameters as arguments.
+Line 5: Incorrect return statements. Should be returning initially passed in parameters, BankAccount.
+Line 7: Incorrect return statements. Should be returning initially passed in parameters, BankAccount.
+Line 7: Incorrect return statement. Method specific initially for int parameter as return, so return int.
+11)
+O(N²)
+12)
+O(N)
+21)
+a. Examines: 7, 11 9; returns 9
+b. Examines: 7, 3, 4; returns -5
+c. Examines: 7, 11, 13, 14; returns 14
+d. Examines: 7, 3, 5, 6; returns -8
+24)
+a. {-4, 3, 17, 29, 94, 46, 8, 12}
+	{-4, 3, 8, 29, 94, 46, 17, 12}
+b. {3, 17, 29, 94, 46, 8, 12}
+	{3, 8, 29, 94, 46, 17, 12}
+c. {-4, -4, 17, 3, 94, 46, 8, 29, 12}
+	{-4, -4, 3, 17, 94, 46, 8, 29, 12}
+d. {-4, 3, 17, 94, 46, 8, 29, 12}
+	{-4, 3, 8, 94, 46, 17, 29, 12}
+e. {-4, 17, 29, 94, 3, 8, 46, 12}
+	{-4, 3, 29, 94, 17, 8, 46, 12}
+30)
+a. [29, 17, 3, 94, 46, 8, -4, 12]
+ 	[29, 17, 3, 94], [46, 8, -4, 12]
+ 		[29, 17], [3, 94], [46, 8], [-4, 12]
+ 			[29], [17], [3], [94], [46], [8], [-4], [12]
+ 				[17, 29], [3, 94], [8, 46], [-4, 12]
+ 					[3, 17, 29, 94], [-4, 8, 12, 46]
+ 						[-4, 3, 8, 12, 17, 29, 46, 94]
+b. [6, 5, 3, 7, 1, 8, 4, 2]
+ 	[6, 5, 3, 7], [1, 8, 4, 2]
+ 		[6, 5], [3, 7], [1, 8], [4, 2]
+ 			[6], [5], [3], [7], [1], [8], [4], [2]
+ 				[5, 6], [3, 7], [1, 8], [2, 4]
+ 					[3, 5, 6, 7], [1, 2, 4, 8]
+ 						[1, 2, 3, 4, 5, 6, 7, 8]
+c. [33, 14, 3, 95, 47, 9, -42, 13]
+ 	[33, 14, 3, 95], [47, 9, -42, 13]
+ 		[33, 14], [3, 95], [47, 9], [-42, 13]
+ 			[33], [14], [3], [95], [47], [9], [-42], [13]
+ 				[14, 33], [3, 95], [9, 47], [-42, 13]
+ 					[14, 33], [3, 95], [9, 47], [-42, 13]
+ 						[3, 14, 33, 95], [-42, 9, 13, 47]
+ 							[-42, 3, 9, 13, 14, 33, 47, 95]
+Funai 2
+
+
