@@ -1,0 +1,77 @@
+Alexander Funai
+CS211 Assignment #1
+Building Java Programs: Chapter 9
+Self Check Problems (#3, #8, #9, #10, #14, #15, #16, and  #20)
+
+3)
+d. public class A extends B {
+
+8) 
+vroom
+car 1
+car 2
+vroom
+truck 1
+car 2
+
+9)
+vroomvroom
+truck 1
+car 1
+
+10)
+a. Vehicle v = new Car();
+b. Vehicle v = new SUV();
+c. Car c = new SUV();
+d. SUV s = new SUV();
+14)
+squid
+creature 1
+tentacles
+
+BIG!
+spout
+creature 2
+
+ocean-dwelling
+creature 1
+creature 2
+
+ocean-dwelling
+warm-blooded
+creature 2
+15)
+creature 2
+ocean-dwelling
+creature 1
+
+tentacles
+squid
+creature 1
+
+creature 2
+ocean-dwelling
+warm-blooded
+
+creature 2
+BIG!
+spout
+16)
+Bay 1  Pond 2
+Ocean 2
+Lake 3  Ocean 2
+
+Pond 1
+Pond 2
+Pond 3
+
+Pond 1
+Pond 2
+Lake 3  Pond 2
+
+Bay 1  Pond 2
+Bay 2
+Lake 3  Bay 2
+
+20)
+Creating 52 unique classes for a card deck program wouldn’t be ideal, and would be redundant. An alternative could be, creating unique classes for suits or card value.
