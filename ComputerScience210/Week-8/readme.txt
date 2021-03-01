@@ -4,6 +4,10 @@
 *   Computer Science 210    *
 *****************************/
 
+--->
+Building Java Programs: Chapter 8 -- Classes - Object Orientated Programming - Constructors - Encapsulation
+<---
+
 ---> Assignment 8 <---
 
 Rational Numbers -- Utilizes constructors, private variables, and .this reference variable to compute basic mathematical arithmetic operations for a rational number.
