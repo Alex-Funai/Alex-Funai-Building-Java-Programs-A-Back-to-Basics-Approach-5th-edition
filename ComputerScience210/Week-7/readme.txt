@@ -15,11 +15,12 @@ Personality Test -- Utilizes scanner, file-reading, and tokenizing to read in th
                     remainder and/or logic || is utilized to specify which answers go into specific columns of the category group array.
                     
 
-/**************************************/
-* See PersonalityTest Personal        *
-* for an extension of this program    *
-* I've been working on which extends  *
-* this functionality into a useable   *
-* program for the user to actually    *
-* take the test themselves.           *
-* *************************************
+/****************************************
+*   See repository:                     *
+*   KeirseyTemperamentAssessment        *
+*   for an extension of this program    *
+*   I've been working on which extends  *
+*   this functionality into a useable   *
+*   program for the user to actually    *
+*   take the test themselves.           *
+* ***************************************/
