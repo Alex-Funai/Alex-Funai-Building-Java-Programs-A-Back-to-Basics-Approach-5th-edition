@@ -1,6 +1,6 @@
 Alexander Funai
-CS210 Assignment 6
-Building Java Programs: Chapter 6
+CS210 Assignment #6
+Building Java Programs: Chapter 6 -- File Processing
  
 7.
 There are 17 tokens total.
@@ -24,7 +24,7 @@ you. (next)
 
 8.
 The file location directory is specific using backslash, and should be fowardslash or two backslashes. 
-Scanner input = new Scanner (new File ( ìC:\\temp\\new files\\test.datî));
+Scanner input = new Scanner (new File ( ‚ÄúC:\\temp\\new files\\test.dat‚Äù));
 
 12.
 input: 6.7        This file has
