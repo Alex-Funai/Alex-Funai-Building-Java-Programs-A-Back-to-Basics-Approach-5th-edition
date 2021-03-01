@@ -4,6 +4,10 @@
 *   Computer Science 210    *
 *****************************/
 
+--->
+Building Java Programs: Chapter 4 -- Conditional Execution - if/else Statements - Cumulative Algorithms - Methods w/ conditional Execution
+<---
+
 ---> Assignment 5 <---
 
 WordCount -- Basic method to count the number of words in a string (w/o use of a Scanner or FileReader) specified by the user in the main function.
