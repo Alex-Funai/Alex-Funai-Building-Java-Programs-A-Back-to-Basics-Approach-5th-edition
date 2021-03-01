@@ -5,6 +5,10 @@
 *   Computer Science 210    *
 *****************************/
 
+--->
+Building Java Programs: Chapter 5 -- Program Logic and Indefinite Loops - While - Fencepost Algorithms - Booleans - User Errors - Assertions
+<---
+
 ---> Assignment 5 <---
 
 Guessing Game (Counting Game) -- Classic number guessing game. Utilizes scanner with standard i/o and while/if/else loops. Math.random to generate
