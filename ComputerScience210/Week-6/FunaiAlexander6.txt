@@ -1,0 +1,58 @@
+Alexander Funai
+CS210 Assignment 6
+Building Java Programs: Chapter 6
+ 
+7.
+There are 17 tokens total.
+Hello (next)
+there,how (next)
+are (next)
+you? (next)
+I (next)
+am (next)
+"very (next)
+well", (next)
+thank (next)
+you. (next)
+12 (nextInt, nextDouble, next)
+34 (nextInt, nextDouble, next)
+5.67 (nextDouble, next)
+(8 (next)
++ (next)
+9) (next)
+"10" (next)
+
+8.
+The file location directory is specific using backslash, and should be fowardslash or two backslashes. 
+Scanner input = new Scanner (new File ( “C:\\temp\\new files\\test.dat”));
+
+12.
+input: 6.7        This file has
+input:         several input lines.
+input:
+input:   10 20         30   40
+input:
+input: test
+6 total
+
+13.
+input: 6.7
+input: This
+input: file
+input: has
+input: several
+input: input
+input: lines.
+input: 10
+input: 20
+input: 30
+input: 40
+input: test
+12 total
+
+20.
+PrintStream out = new PrintStream(new File("message.txt"));
+out.println("Testing,");
+out.println("1, 2, 3.");
+out.println();
+out.println("This is my output file.");
