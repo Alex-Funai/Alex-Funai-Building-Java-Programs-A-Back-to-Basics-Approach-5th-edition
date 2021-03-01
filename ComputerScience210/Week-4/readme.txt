@@ -4,7 +4,7 @@
 *   Computer Science 210    *
 *****************************/
 
----> Assignment 4 <---
+---> Assignment 5 <---
 
 WordCount -- Basic method to count the number of words in a string (w/o use of a Scanner or FileReader) specified by the user in the main function.
              Increments wordCounts variable by utilizing charAt(0) and " " as justification for new words being initialized.
