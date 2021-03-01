@@ -1,6 +1,6 @@
 Alexander Funai
 CS210 Assignment #5
-Building Java Programs: Chapter 5 -- Program Logic and Indefinite Loops
+Building Java Programs: Chapter 5 -- Program Logic and Indefinite Loops - While - Fencepost Algorithms - Booleans - User Errors - Assertions
 
 1.
 a)
