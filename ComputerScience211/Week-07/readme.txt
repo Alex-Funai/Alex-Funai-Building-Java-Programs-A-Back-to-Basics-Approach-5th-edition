@@ -5,7 +5,7 @@
 *****************************/
 
 --->
-Building Java Programs: Chapter 17 -- Binary Trees - Tree Traversals - Binary Search Trees
+Building Java Programs: Chapter 17 -- Binary Trees - Tree Traversals - Tree Operations - Binary Search Trees
 <---
 
 ---> Assignment 7 <---
