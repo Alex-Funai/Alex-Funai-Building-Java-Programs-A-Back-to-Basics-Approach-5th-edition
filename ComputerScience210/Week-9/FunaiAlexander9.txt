@@ -1,5 +1,6 @@
 Alexander Funai
-CS210 HW9
+CS210 Assignment #9
+Building Java Programs: Chapter 9 -- Inheritance and Interfaces
 
 1.	Code reuse is the practice of reusing code again throughout a program.
 2.	There are differences between overloading and overriding a method.  The main differences are that overloading a method reuses a method w/ different variables so it doesn’t disregard the original. Overriding methods occurs when a method is recalled with the same exact parameters and there for it overwrites the original method values.
