@@ -1,7 +1,6 @@
 Alexander Funai
-CS 210
-Buliding Java Programs: Chapter 2
-Homework 2
+CS 210 Assignment #2
+Buliding Java Programs: Chapter 2 -- Primitive Data and Definite Loops
 
 5)  
 public class Homework2 {
@@ -45,7 +44,39 @@ a.  2 * line +  (2 *  SIZE)
 b.  4 * line + (3 * SIZE)
 c.  -line + 92 * SIZE + 3)
 37)
-line\!/1022022182341444610658686102102 * line - 2-4 * line + 262 * line - 2	
+line
+\
+!
+/
+1
+0
+22
+0
+2
+2
+18
+2
+3
+4
+14
+4
+4
+6
+10
+6
+5
+8
+6
+8
+6
+10
+2
+10
+
+2 * line - 2
+-4 * line + 26
+2 * line - 2
+	
     // This method outputs a figure using print statement and for loops.
     public static void Draw() {
         for (int line = 1; line <= 6; line++) {
@@ -71,7 +102,31 @@ line\!/1022022182341444610658686102102 * line - 2-
 }
 
 38)
-line\!/101402210234644626Expression2 * line - 2-4 * line + 182 * line - 2
+line
+\
+!
+/
+1
+0
+14
+0
+2
+2
+10
+2
+3
+4
+6
+4
+4
+6
+2
+6
+Expression
+2 * line - 2
+-4 * line + 18
+2 * line - 2
+
     public static void Draw() {
         for (int line = 1; line <= 6; line++) {
             
