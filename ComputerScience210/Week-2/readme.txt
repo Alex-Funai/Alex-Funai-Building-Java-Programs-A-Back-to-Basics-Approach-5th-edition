@@ -6,4 +6,4 @@
 
 ---> Assignment 2 <---
 
-SpaceNeedle -- I/O with loops and constant variables to print a rational/resizeable Spaceneedle figure.
+SpaceNeedle -- I/O with for/if loops and constant variables to print a rational/resizeable Spaceneedle figure.
