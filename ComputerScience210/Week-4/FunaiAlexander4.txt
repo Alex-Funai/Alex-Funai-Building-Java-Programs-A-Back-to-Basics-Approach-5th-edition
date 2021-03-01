@@ -1,7 +1,6 @@
 Alexander Funai
-CS210
-Building Java Programs: Chapter 4
-Assignment 4
+CS210 Assignment #4
+Building Java Programs: Chapter 4 -- Conditional Execution
 
 2)
 a)
@@ -21,7 +20,7 @@ public class SelfCheckProblems {
 b)  if (z <= Math.sqrt(y)) {
 c)  if (y > 0)
 d)  if (x % 2 != y %2)
-// Don’t  understand this one completely
+// Donâ€™t  understand this one completely
 e)  if (z != 0)
 f)  z != 0
 g)  Math.abs(y) > Math.abs (z)
@@ -29,7 +28,7 @@ h)  (x >= 0) == (z < 0)
 i)  y % 10 == y 
 j)  z >= 0
 k)  x % 2 == 0
-l)  Math.abs (x – y ) < Math.abs (z – y )
+l)  Math.abs (x â€“ y ) < Math.abs (z â€“ y )
 
 
 2)
@@ -66,14 +65,14 @@ import java.util.Scanner;
 public class selfcheck {
 	public static void main (String [] args) {
 	Scanner console = new Scanner (System.in);
-	int numBills1 = getBills(console, “John”);
-	int numBills2 = getBills(console, “Jane”);
-	System.out.println(“John needs “ + numBills1 + “ bills”);
-	System.out.println(“Jane needs “ + numBills2 + “ bills”);
+	int numBills1 = getBills(console, â€œJohnâ€);
+	int numBills2 = getBills(console, â€œJaneâ€);
+	System.out.println(â€œJohn needs â€œ + numBills1 + â€œ billsâ€);
+	System.out.println(â€œJane needs â€œ + numBills2 + â€œ billsâ€);
 }
 
 public static int getBills(Scanner console, String name) {
-	System.out.print(“How much will “ + name + “ be spending “);
+	System.out.print(â€œHow much will â€œ + name + â€œ be spending â€œ);
 	double amount = console.nextDouble();
 	System.out.println();
 	int numBills = (int) (amount / 20.0);
