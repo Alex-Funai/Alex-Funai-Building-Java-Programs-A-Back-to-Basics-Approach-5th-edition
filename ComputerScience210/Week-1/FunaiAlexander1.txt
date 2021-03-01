@@ -1,5 +1,6 @@
 Alexander Funai
 CS 210
+Building Java Programs: Chapter 1
 Homework 1
 
 1. Computers use binary numbers, because it was more convenient to engineer mechanical devices (computers) responding to an open circuit (zeros and ones), in comparison to a more complicated system using a base-10 system. Using a binary system rather than a base-10 system results in device to being produced easier and more reliably. 
