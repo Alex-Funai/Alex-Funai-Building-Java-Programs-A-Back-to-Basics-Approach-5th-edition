@@ -1,0 +1,43 @@
+Alexander Funai
+CS210
+Building Java Programs: Chapter 3
+Homework 3
+
+4)
+1 3 5 
+1 3 5 7 9 11 13 15 
+1 3 5 7 9 11 13 15 17 19 21 23 25
+
+5)
+public class SCP {
+    public static void main(String [] args) {
+        
+        printStrings("abc", 5);
+    }
+    
+    public static void printStrings(String s, int n) {
+        for (int i = 1; i <= n; i++) {
+            System.out.print(s + " ");
+        }
+    }   
+}
+
+14)
+3 0
+1 2 4
+4 3
+5 2 4
+8 1
+5 9 4
+19)
+a) 13
+b) a
+c) G
+d) 2
+e) GANDALF THE GRAY
+f) -1
+g) o Baggins
+h) dalf the GR
+i) Goondoolf the GRAY
+j) Gandalf the GRAY
+k) strange1
